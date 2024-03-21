@@ -10,7 +10,7 @@ const Nav = () => {
     <nav className='flex border bg-white border-b-[#f3f3f3] justify-around items-center p-5 scroll-ml-8 fixed w-full'>
       <div>
         <a href="/" className='cursor-pointer'>
-          <GiRunningShoe className='w-10 h-10 md:w-16 md:h-16'/>
+          <GiRunningShoe className='w-10 h-10 md:w-16 md:h-16'/>hehe boy
         </a>
       </div>
       <div className='bg-[#f7f6f6] w-2/6'>
