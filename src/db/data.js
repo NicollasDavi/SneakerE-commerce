@@ -5,7 +5,7 @@ const data = [
     prevPrice: "R$ 1139,99",
     company: "Nike",
     op: "Inspirado no AJ1 original, essa edição cano médio mantém o visual icônico que você ama, enquanto a escolha de cores e o couro conferem uma identidade distinta.",
-    color: "white",
+    color: "White",
   },
   {
     img: "https://imgnike-a.akamaihd.net/1920x1920/027664NX.jpg",
@@ -21,7 +21,7 @@ const data = [
     prevPrice: "R$ 899,99",
     company: "Nike",
     op: "Vinte anos depois e esse cano baixo está de volta. Inspirado no logo Wings original e no design do Jordan 1, esse tênis para uso do dia a dia está pronto para o que você precisar. Use-o com baggy jeans, andando de skate ou para mostrar que tem estilo - a escolha é sua. Cabedal em material macio e um grande logo em relevo ajudará você a se manter em destaque, quer esteja elegante ou simples.",
-    color: "white",
+    color: "White",
   },
   {
     img: "https://imgnike-a.akamaihd.net/1920x1920/02472351.jpg",
@@ -29,7 +29,7 @@ const data = [
     prevPrice: "R$ 721,99",
     company: "Nike",
     op: "O Nike Air Force 1 Mid '07 é tudo aquilo que você conhece: construção dos anos 80, couro suave e estilo de basquete. Adicionamos também um colarinho acolchoado médio com tira ajustável.",
-    color: "white",
+    color: "White",
   },
   {
     img: "https://imgnike-a.akamaihd.net/1920x1920/02729551.jpg",
@@ -37,7 +37,7 @@ const data = [
     prevPrice: "R$ 949,99",
     company: "Nike",
     op: "Você precisa saber onde esteve para saber para onde está indo. Levamos isso a sério ao criar o Stay Loyal 3, um tênis moderno baseado no legado da Air Jordan. Por dentro e por fora, ele é feito para oferecer versatilidade, com visual minimalista, amortecimento tipo nuvem e elementos de design que lembram o AJ4. Em outras palavras, estilo com poder duradouro comprovado.",
-    color: "white",
+    color: "White",
   },
   {
     img: "https://imgnike-a.akamaihd.net/1920x1920/0223447T.jpg",
@@ -53,7 +53,7 @@ const data = [
     prevPrice: "R$ 1614,99",
     company: "Nike",
     op: "Novo fogo. Reacender uma cor adorada da marca, o AJ4 Red Cement traz um toque de tradição à silhueta vibrante. Os detalhes em vermelho fogo com efeito pontilhado lembram a coloração original White Cement, e o couro branco nítido mantém cada ajuste limpo.",
-    color: "white",
+    color: "White",
   },
   {
     img: "https://imgnike-a.akamaihd.net/1920x1920/027810ID.jpg",
@@ -61,7 +61,7 @@ const data = [
     prevPrice: "R$ 1804,99",
     company: "Nike",
     op: "Limpo e supremo, o lendário design Tinker Hatfield AJ3 que solidificou o lugar de MJ na história dos tênis está de volta. A estampa exclusiva de elefante reinventa o visual original icônico, enquanto o couro luxuoso e a camurça em toda a parte superior elevam cada passo. Destacando a marca Jumpman, sucessos vibrantes do Total Orange brilham contra o Night Stadium e o preto. Suave como o jogo de Jordan e pronto para você criar seu próprio legado.",
-    color: "black",
+    color: "Black",
   },
   {
     img: "https://imgnike-a.akamaihd.net/1920x1920/0279065A.jpg",
@@ -69,7 +69,7 @@ const data = [
     prevPrice: "R$ 759,99",
     company: "Nike",
     op: "Confortável, durável e atemporal - não é à toa que ele é o número 1. A construção dos anos 80 é combinada com cores clássicas para um estilo que acompanha se você está na quadra ou em movimento.",
-    color: "white",
+    color: "White",
   },
   {
     img: "https://imgnike-a.akamaihd.net/1920x1920/027993ID.jpg",
@@ -77,7 +77,7 @@ const data = [
     prevPrice: "R$ 1139,99",
     company: "Nike",
     op: "Escuro, tempestuoso e cheio de estilo. Este AJ1 combina couro, camurça e tecidos no cabedal para um visual tonal com muita profundidade.",
-    color: "black",
+    color: "Black",
   },
   {
     img: "https://imgnike-a.akamaihd.net/1920x1920/027556NX.jpg",
@@ -85,7 +85,7 @@ const data = [
     prevPrice: "R$ 1139,99",
     company: "Nike",
     op: "Novas cores e texturas oferecem um AJ1 artesanal que mantém o visual clássico e a sensação familiar. Este favorito de todos os tempos é feito de materiais premium e decorado com pontas brutas e costura em contraste.",
-    color: "green",
+    color: "Green",
   },
   {
     img: "https://imgnike-a.akamaihd.net/1920x1920/027068IM.jpg",
@@ -93,7 +93,7 @@ const data = [
     prevPrice: "R$ 1234,99",
     company: "Nike",
     op: "Nós não inventamos o remix - mas considerando o material que podemos amostrar, este é o que você precisa. Acionamos o SP-12 e pegamos elementos do AJ6, 7 e 8, transformando-os em um calçado completamente novo que celebra o primeiro campeonato de 3 turfas de MJ. Com detalhes em couro, tecido e nobuck, esse tênis homenageia um legado enquanto incentiva você a consolidar o seu próprio.",
-    color: "black",
+    color: "Black",
   },
   {
     img: "https://imgnike-a.akamaihd.net/1920x1920/027493ID.jpg",
@@ -101,7 +101,7 @@ const data = [
     prevPrice: "R$ 1139,99",
     company: "Nike",
     op: "Visual novo, sensação familiar. Toda vez que o AJ1 recebe um remake, você tem um tênis clássico em novas cores e texturas. Materiais e detalhes premium dão uma expressão moderna a um favorito de todos os tempos.",
-    color: "black",
+    color: "Black",
   },
   {
     img: "https://imgnike-a.akamaihd.net/1920x1920/02341615.jpg",
@@ -109,15 +109,15 @@ const data = [
     prevPrice: "R$ 899,99",
     company: "Nike",
     op: "Originalmente criado para as quadras, o Dunk mais tarde foi para as ruas. Mais de 35 anos após sua estreia, a silhueta ainda oferece um estilo ousado e desafiador e continua sendo um visual cobiçado por equipes em ambos os lados. esporte e cultura.Agora, as cores universitárias OG retornam cobertos de sobreposições de material nítidas com color block inspirado na herança. A tecnologia moderna de calçados traz o conforto do design para o século 21, enquanto uma combinação ousada de Valerian Blue e White dá a essas cores uma sensação clássica inspirada nas esperanças de título de um time dos anos 80.",
-    color: "white",
+    color: "White",
   },
   {
-    img: " ",
-    title: " ",
-    prevPrice: " ",
+    img: "https://imgnike-a.akamaihd.net/1920x1920/028264NX.jpg",
+    title: "Tênis Nike Mac Attack Masculino",
+    prevPrice: "R$ 854,99",
     company: "Nike",
-    op: " ",
-    color: " ",
+    op: "Yin e yang. A paixão do mercurial. O equilíbrio é encontrado além dos limites com esta recuperação 1:1 de um visual famoso. Este tênis icônico quebrou os moldes do tênis, e essa iteração difusa quebra os moldes por si só, com um tratamento de camurça desgrenhado. Os tecidos neutros pulsam sob as camadas de camurça para um contraste clean e respirável. Completo com uma etiqueta xadrez na língua e o estilo característico dos anos 80, o Nike Attack está pronto para você impulsionar o status quo.",
+    color: "Green",
   },
   {
     img: " ",

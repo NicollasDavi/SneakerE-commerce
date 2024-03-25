@@ -17,11 +17,12 @@ interface Product {
 
 export default function SearchPage() {
   const [filteredProducts, setFilteredProducts] = useState<Product[]>(productsData);
-
+  
   const handleSelectFilter = (filter: string) => {
-    const filtered = productsData.filter(product => product.color === filter);
+    const filtered = filter === '' ? productsData : productsData.filter(product => product.color === filter);
     setFilteredProducts(filtered);
   };
+  
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
