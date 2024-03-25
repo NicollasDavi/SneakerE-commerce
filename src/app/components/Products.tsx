@@ -13,7 +13,7 @@ interface ProductsProps {
 
 const Products: React.FC<ProductsProps> = ({ filteredProducts }) => {
   return (
-    <div className="grid grid-cols-4 gap-8 mt-20">
+    <div className="grid grid-cols-4 gap-8 mt-20 w-3/4 bg-black">
       {filteredProducts.map((product, index) => (
         <Card
           key={index}
