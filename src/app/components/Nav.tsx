@@ -4,13 +4,14 @@ import React from 'react';
 import { FiHeart } from 'react-icons/fi';
 import { AiOutlineShoppingCart, AiOutlineUserAdd } from 'react-icons/ai';
 import { GiRunningShoe } from "react-icons/gi";
+import Link from 'next/link';
 
 const Nav = () => {
   return (
     <nav className='z-50 flex border bg-white border-b-[#f3f3f3] justify-around items-center p-5 fixed w-full'>
       <div>
         <a href="/" className='flex items-center cursor-pointer'>
-          <GiRunningShoe className='w-10 h-10 md:w-16 md:h-16 mr-2'/>hehe boy
+          <GiRunningShoe className='w-10 h-10 md:w-16 md:h-16 mr-2'/>SneakStreet
         </a>
       </div>
       <div className='bg-[#f7f6f6] w-2/6'>

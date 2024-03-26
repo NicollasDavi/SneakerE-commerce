@@ -11,9 +11,9 @@ interface Product {
   img: string;
   title: string;
   prevPrice: string;
-  company: string;
+  company:string | string[];
   op: string;
-  color: string;
+  color: string | string[];
 }
 
 export default function View() {
