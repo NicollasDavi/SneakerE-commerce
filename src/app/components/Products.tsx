@@ -19,7 +19,7 @@ const Products: React.FC<ProductsProps> = ({ filteredProducts }) => {
   const pathname = usePathname(); // Obtendo o caminho atual da URL
 
   const handleShowProduct = (id: number) => {
-    window.location.href = `/product/view/${id}`; // Redirecionando para a página de visualização do produto com o id na URL
+    window.location.href = `/pages/view/${id}`; // Redirecionando para a página de visualização do produto com o id na URL
   };
 
   return (

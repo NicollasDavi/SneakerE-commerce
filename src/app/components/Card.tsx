@@ -1,5 +1,3 @@
-// Card.tsx
-
 import React from 'react';
 import { BsFillBagHeartFill } from 'react-icons/bs';
 
