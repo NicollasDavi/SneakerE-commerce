@@ -1,5 +1,6 @@
 const data = [
   {
+    id: 1,
     img: "https://imgnike-a.akamaihd.net/1920x1920/0243315B.jpg",
     title: "Tênis Air Jordan 1 Mid Masculino",
     prevPrice: "R$ 1139,99",
@@ -8,6 +9,7 @@ const data = [
     color: "White",
   },
   {
+    id: 2,
     img: "https://imgnike-a.akamaihd.net/1920x1920/027664NX.jpg",
     title: "Dunk Low",
     prevPrice: "R$ 949,99",
@@ -16,6 +18,7 @@ const data = [
     color: "Verde",
   },
   {
+    id:3,
     img: "https://imgnike-a.akamaihd.net/1920x1920/02773051.jpg",
     title: "JORDAN NU RETRO 1 LOW",
     prevPrice: "R$ 899,99",
@@ -24,6 +27,7 @@ const data = [
     color: "White",
   },
   {
+    id: 4,
     img: "https://imgnike-a.akamaihd.net/1920x1920/02472351.jpg",
     title: "Tênis Air Force 1 Mid '07 Masculino",
     prevPrice: "R$ 721,99",
@@ -32,6 +36,7 @@ const data = [
     color: "White",
   },
   {
+    id: 5,
     img: "https://imgnike-a.akamaihd.net/1920x1920/02729551.jpg",
     title: "Tênis Jordan Stay Loyal 3 Masculino",
     prevPrice: "R$ 949,99",
@@ -40,6 +45,7 @@ const data = [
     color: "White",
   },
   {
+    id: 6,
     img: "https://imgnike-a.akamaihd.net/1920x1920/0223447T.jpg",
     title: "Tênis Air Jordan 1 Low SE Craft Masculino",
     prevPrice: "R$ 1139,99",
@@ -48,6 +54,7 @@ const data = [
     color: "gray",
   },
   {
+    id: 7,
     img: "https://imgnike-a.akamaihd.net/1920x1920/02723751.jpg",
     title: "Air Jordan 4 Retro",
     prevPrice: "R$ 1614,99",
@@ -56,6 +63,7 @@ const data = [
     color: "White",
   },
   {
+    id: 8,
     img: "https://imgnike-a.akamaihd.net/1920x1920/027810ID.jpg",
     title: "Air Jordan 3",
     prevPrice: "R$ 1804,99",
@@ -64,6 +72,7 @@ const data = [
     color: "Black",
   },
   {
+    id: 9,
     img: "https://imgnike-a.akamaihd.net/1920x1920/0279065A.jpg",
     title: "Tênis Nike Air Force 1 '07 Masculino",
     prevPrice: "R$ 759,99",
@@ -72,6 +81,7 @@ const data = [
     color: "White",
   },
   {
+    id: 10,
     img: "https://imgnike-a.akamaihd.net/1920x1920/027993ID.jpg",
     title: "Tênis Air Jordan 1 Mid Craft Masculino",
     prevPrice: "R$ 1139,99",
@@ -80,6 +90,7 @@ const data = [
     color: "Black",
   },
   {
+    id: 11,
     img: "https://imgnike-a.akamaihd.net/1920x1920/027556NX.jpg",
     title: "Tênis Air Jordan 1 Low SE Craft Masculino",
     prevPrice: "R$ 1139,99",
@@ -88,6 +99,7 @@ const data = [
     color: "Green",
   },
   {
+    id: 12,
     img: "https://imgnike-a.akamaihd.net/1920x1920/027068IM.jpg",
     title: "Tênis Jordan Jumpman MVP Masculino",
     prevPrice: "R$ 1234,99",
@@ -96,6 +108,7 @@ const data = [
     color: "Black",
   },
   {
+    id: 13,
     img: "https://imgnike-a.akamaihd.net/1920x1920/027493ID.jpg",
     title: "Tênis Air Jordan 1 Low SE Masculino",
     prevPrice: "R$ 1139,99",
@@ -104,6 +117,7 @@ const data = [
     color: "Black",
   },
   {
+    id: 14,
     img: "https://imgnike-a.akamaihd.net/1920x1920/02341615.jpg",
     title: "Valerian Blue",
     prevPrice: "R$ 899,99",
@@ -112,6 +126,7 @@ const data = [
     color: "White",
   },
   {
+    id: 15,
     img: "https://imgnike-a.akamaihd.net/1920x1920/028264NX.jpg",
     title: "Tênis Nike Mac Attack Masculino",
     prevPrice: "R$ 854,99",
@@ -120,6 +135,7 @@ const data = [
     color: "Green",
   },
   {
+    id: 16,
     img: "https://imgnike-a.akamaihd.net/1920x1920/022788NX.jpg",
     title: "Tênis Nike KD Trey 5 X Masculino",
     prevPrice: "R$ 626,99",
@@ -128,6 +144,7 @@ const data = [
     color: "Green",
   },
   {
+    id: 17,
     img: "https://imgnike-a.akamaihd.net/1920x1920/021947NM.jpg",
     title: "Tênis Nike Downshifter 12 Next Nature Infantil",
     prevPrice: "R$ 294,49",
@@ -136,6 +153,7 @@ const data = [
     color: "Purple",
   },
   {
+    id: 18,
     img: "https://imgnike-a.akamaihd.net/1920x1920/027854P1.jpg",
     title: "Terra Forma x Off-White™ Mantra Orange",
     prevPrice: "R$ 1699,99",
@@ -144,6 +162,7 @@ const data = [
     color: "Red",
   },
   {
+    id: 19,
     img: "https://imgnike-a.akamaihd.net/1920x1920/028351P1.jpg",
     title: "Tênis Nike Giannis Immortality 3 All-Star Weekend Masculino",
     prevPrice: "R$ 854,99",
@@ -152,6 +171,7 @@ const data = [
     color: "Red",
   },
   {
+    id: 20,
     img: "https://imgnike-a.akamaihd.net/1920x1920/022833MT.jpg",
     title: "Tênis Nike Zoom Fly 5 Masculino",
     prevPrice: "R$ 949,99",
@@ -160,6 +180,7 @@ const data = [
     color: "Pink",
   },
   {
+    id: 21,
     img: "https://imgnike-a.akamaihd.net/1920x1920/02373615.jpg",
     title: "Tênis Air Jordan 2",
     prevPrice: "R$ 1595,99",
@@ -168,20 +189,13 @@ const data = [
     color: "Blue",
   },
   {
+    id: 22,
     img: "https://imgnike-a.akamaihd.net/1920x1920/02734615.jpg",
     title: "Tênis Nike Waffle Debut Masculino",
     prevPrice: "R$ 351,49",
     company: "Nike",
     op: "O retrô é modernizado com estes tênis elegantes inspirados no Nike Daybreak. O suede e o nylon que marcaram época são combinados com uma atualização de três cores, e a entressola com plataforma atualizada proporciona mais elevação. Estilo, conforto e a icônica sola Waffle são o complemento perfeito para sua rotina diária.",
     color: "Blue",
-  },
-  {
-    img: " ",
-    title: " ",
-    prevPrice: " ",
-    company: "Nike",
-    op: " ",
-    color: " ",
   },
 ];
 

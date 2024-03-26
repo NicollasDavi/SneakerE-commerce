@@ -7,11 +7,12 @@ interface Props {
   img: string;
   title: string;
   prevPrice: string;
+  onClick: () => void; // Adicione a propriedade onClick à interface Props
 }
 
-const Card: React.FC<Props> = ({ img, title, prevPrice }) => {
+const Card: React.FC<Props> = ({ img, title, prevPrice, onClick }) => {
   return (
-    <div className="card m-5 border-2 border-solid border-[#ededed] rounded-lg overflow-hidden shadow-md">
+    <div className="card m-5 cursor-pointer border-2 border-solid border-[#ededed] rounded-lg overflow-hidden shadow-md" onClick={onClick}>
       <img src={img} alt="Shoe" className="w-full h-auto object-cover" />
       <div className="p-5">
         <h3 className="text-lg font-semibold mb-2">{title}</h3>
