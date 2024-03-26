@@ -168,12 +168,12 @@ const data = [
     color: "Blue",
   },
   {
-    img: " ",
-    title: " ",
-    prevPrice: " ",
+    img: "https://imgnike-a.akamaihd.net/1920x1920/02734615.jpg",
+    title: "Tênis Nike Waffle Debut Masculino",
+    prevPrice: "R$ 351,49",
     company: "Nike",
-    op: " ",
-    color: " ",
+    op: "O retrô é modernizado com estes tênis elegantes inspirados no Nike Daybreak. O suede e o nylon que marcaram época são combinados com uma atualização de três cores, e a entressola com plataforma atualizada proporciona mais elevação. Estilo, conforto e a icônica sola Waffle são o complemento perfeito para sua rotina diária.",
+    color: "Blue",
   },
   {
     img: " ",
