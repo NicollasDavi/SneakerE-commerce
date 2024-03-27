@@ -5,7 +5,7 @@ interface Props {
   img: string;
   title: string;
   prevPrice: string;
-  onClick: () => void; // Adicione a propriedade onClick à interface Props
+  onClick?: () => void; // Propriedade onClick é opcional
 }
 
 const Card: React.FC<Props> = ({ img, title, prevPrice, onClick }) => {

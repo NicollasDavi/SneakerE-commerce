@@ -8,7 +8,7 @@ interface Product {
   img: string;
   title: string;
   prevPrice: string;
-  op: string
+  op: string;
 }
 
 interface ProductsProps {
@@ -21,6 +21,7 @@ const ApProducts: React.FC<ProductsProps> = ({ filteredProducts }) => {
     <div className="mt-24 overflow-hidden absolute">
       {filteredProducts.map((product, index) => (
         <Apresentation
+          id={product.id}
           key={index}
           img={product.img}
           title={product.title}

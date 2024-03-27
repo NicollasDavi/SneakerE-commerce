@@ -25,7 +25,7 @@ const Nav = () => {
         <a href="#" className='text-[97,97,97)]'>
           <FiHeart className='w-6 h-6  md:ml-8 ' />
         </a>
-        <a href="#">
+        <a href="/pages/bag">
           <AiOutlineShoppingCart className='w-6 h-6 ml-2 md:ml-8' />
         </a>
         <a href="#">

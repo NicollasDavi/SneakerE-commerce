@@ -1,13 +1,15 @@
 import React from 'react';
+import { adicionarProdutoAoCarrinho } from '../server'; // Importe a função correta para adicionar o produto ao carrinho
 
 interface Props {
   img: string;
   title: string;
   prevPrice: string;
-  op: string
+  op?: string; // Faça op ser uma string opcional
+  id: number;
 }
 
-const Apresentation: React.FC<Props> = ({ img, title, prevPrice, op }) => (
+const Apresentation: React.FC<Props> = ({ img, title, prevPrice, op, id }) => (
   <div className="md:w-10/12 p-8 bg-white items-center justify-center mx-auto">
     <div className="bg-white md:flex items-center justify-center">
       <div className="w-full md:w-1/2 mr-8">
@@ -20,7 +22,7 @@ const Apresentation: React.FC<Props> = ({ img, title, prevPrice, op }) => (
           <button className="bg-black text-white px-6 py-3 rounded-md hover:bg-gray-800 transition-colors">
             Comprar agora
           </button>
-          <button className="bg-white text-black px-6 py-3 rounded-md border border-black hover:bg-gray-100 transition-colors">
+          <button className="bg-white text-black px-6 py-3 rounded-md border border-black hover:bg-gray-100 transition-colors" onClick={() => adicionarProdutoAoCarrinho({ id, img, title, prevPrice })}>
             Adicionar ao carrinho
           </button>
         </div>
@@ -28,11 +30,12 @@ const Apresentation: React.FC<Props> = ({ img, title, prevPrice, op }) => (
       <div>
       </div>
     </div>
-    <div className='mt-2'>
-      <p className='md:p-6'>{op}</p>
-    </div>
+    {op && (
+      <div className='mt-2'>
+        <p className='md:p-6'>{op}</p>
+      </div>
+    )}
   </div>
-
 );
 
 export default Apresentation;
