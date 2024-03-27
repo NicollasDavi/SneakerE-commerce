@@ -1,8 +1,6 @@
-// Products.tsx
-
 import React from 'react';
 import Card from './Card';
-import { usePathname } from 'next/navigation'; // Importando usePathname para obter o caminho atual da URL
+import { usePathname } from 'next/navigation';
 
 interface Product {
   id: number;
@@ -12,19 +10,19 @@ interface Product {
 }
 
 interface ProductsProps {
-  filteredProducts: Product[];
+  filteredProducts?: Product[]; // tornando filteredProducts opcional
 }
 
 const Products: React.FC<ProductsProps> = ({ filteredProducts }) => {
-  const pathname = usePathname(); // Obtendo o caminho atual da URL
+  const pathname = usePathname();
 
   const handleShowProduct = (id: number) => {
-    window.location.href = `/pages/view/${id}`; // Redirecionando para a página de visualização do produto com o id na URL
+    window.location.href = `/pages/view/${id}`;
   };
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 absolute right-5 gap-8 mt-20 w-3/4">
-      {filteredProducts.map((product, index) => (
+      {filteredProducts && filteredProducts.map((product, index) => (
         <Card
           key={index}
           img={product.img}

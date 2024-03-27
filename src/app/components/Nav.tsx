@@ -17,7 +17,7 @@ const Nav = () => {
       <div className='bg-[#f7f6f6] w-2/6'>
         <input
           type="text" 
-          placeholder='Enter your search shoes.' 
+          placeholder='Pesquisar...' 
           className='px-5 py-3 border-none bg-[#f7f6f6] outline-none rounded relative w-full'
         />
       </div>
