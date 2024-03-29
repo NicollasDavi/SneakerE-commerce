@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import Card from './Card'; // Importe o componente Card aqui
+import Card from './Card';
 import productsData from '../../db/data';
 import { usePathname } from 'next/navigation';
 
@@ -33,13 +33,10 @@ const SimpleSlider = () => {
             }
         };
 
-        // Adicione um event listener para redimensionamento da janela
         window.addEventListener('resize', handleResize);
 
-        // Chame a função de redimensionamento uma vez para configurar o valor inicial
         handleResize();
 
-        // Remova o event listener ao desmontar o componente para evitar vazamentos de memória
         return () => {
             window.removeEventListener('resize', handleResize);
         };
@@ -48,7 +45,7 @@ const SimpleSlider = () => {
     const settings = {
         infinite: true,
         speed: 500,
-        slidesToShow: slidesToShow, // Use a variável slidesToShow
+        slidesToShow: slidesToShow,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -78,7 +75,7 @@ const SimpleSlider = () => {
                     <Card
                         key={index}
                         img={product.img}
-                        title={truncateTitle(product.title)} // Passando apenas as três primeiras palavras do título
+                        title={truncateTitle(product.title)}
                         prevPrice={product.prevPrice}
                         onClick={() => handleShowProduct(product.id)}
                     />
@@ -90,4 +87,3 @@ const SimpleSlider = () => {
 
 export default SimpleSlider;
 
-// Função para truncar o título e exibir apenas as três primeiras palavras

@@ -1,7 +1,5 @@
-// Products.tsx
-
-import React from 'react';
 import Apresentation from './Apresentation';
+import Modal from './Modal';
 
 interface Product {
   id: number;
@@ -18,19 +16,20 @@ interface ProductsProps {
 const ApProducts: React.FC<ProductsProps> = ({ filteredProducts }) => {
 
   return (
-    <div className="mt-24 overflow-hidden absolute">
-      {filteredProducts.map((product, index) => (
-        <Apresentation
-          id={product.id}
-          key={index}
-          img={product.img}
-          title={product.title}
-          prevPrice={product.prevPrice}
-          op={product.op}
-        />
-      ))}
-    </div>
+      <div className="mt-24 overflow-hidden absolute">
+        {filteredProducts.map((product, index) => (
+          <Apresentation
+            id={product.id}
+            key={index}
+            img={product.img}
+            title={product.title}
+            prevPrice={product.prevPrice}
+            op={product.op}
+          />
+        ))}
+      </div>
   );
+  
 };
 
 export default ApProducts;

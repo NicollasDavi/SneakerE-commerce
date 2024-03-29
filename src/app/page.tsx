@@ -8,7 +8,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className=" w-screen md:w-10/12 mt-5">
         <Link href={"/pages/search"}>
-        <img src="https://imgnike-a.akamaihd.net/branding/cdp-airmax-2024/assets/img/p1-desk-v2.png" alt="Slide 1" className="w-full h-full object-cover" />
+        <img src="https://imgnike-a.akamaihd.net/branding/cdp-airmax-2024/assets/img/p1-desk-v2.png" alt="Slide 1" className="w-full h-full object-cover" /> 
         </Link>
       </div>
       <div className='mt-5 md:mt-14 text-center w-screen'>
