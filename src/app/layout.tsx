@@ -15,17 +15,19 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  
+
   return (
     <html lang="pt-br">
-      
       <head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" />
       </head>
       <body className={inter.className}>
         <header>
-        <Nav />
-      </header>
-        {children}</body>
+          <Nav />
+        </header>
+        {children}
+      </body>
     </html>
   );
 }

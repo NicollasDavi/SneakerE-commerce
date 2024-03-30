@@ -21,7 +21,7 @@ const Products: React.FC<ProductsProps> = ({ filteredProducts }) => {
   };
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 absolute right-5 gap-8 mt-20 w-3/4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 absolute right-5 gap-8 mt-20 w-11/12 md:w-3/4">
       {filteredProducts && filteredProducts.map((product, index) => (
         <Card
           key={index}

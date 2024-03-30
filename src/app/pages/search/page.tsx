@@ -26,6 +26,8 @@ export default function SearchPage() {
     setSelectedCompany(company === selectedCompany ? '' : company);
   };
 
+  
+
   const filteredProducts = productsData.filter((product) => {
     if (selectedColor && selectedCompany) {
       return (
@@ -42,6 +44,11 @@ export default function SearchPage() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div className='md:hidden'>
+          <button>
+
+          </button>
+      </div>
       <Aside 
         onSelectFilterColor={handleSelectFilterColor} 
         onSelectFilterCompany={handleSelectFilterCompany}

@@ -1,11 +1,17 @@
+"use client"
+import { usePathname } from 'next/navigation';
 import { FiHeart } from 'react-icons/fi';
 import { AiOutlineShoppingCart, AiOutlineUserAdd } from 'react-icons/ai';
 import { GiRunningShoe } from "react-icons/gi";
 
 const Nav = () => {
-  
+  const pathname = usePathname();
+
+  const handleClick = () => {
+    window.location.href = '/pages/alert'; // Redirecionar para /pages/alert
+  };
+
   return (
-    
     <nav className='z-50 flex border bg-white border-b-[#f3f3f3] justify-around items-center p-5 fixed w-full'>
       <div>
         <a href="/" className='flex items-center cursor-pointer'>
@@ -18,6 +24,7 @@ const Nav = () => {
           type="text" 
           placeholder='Pesquisar...' 
           className='px-5 py-3 border-none bg-[#f7f6f6] outline-none rounded relative w-full'
+          onClick={handleClick} // Redirecionar quando o input for clicado
         />
       </div>
       <div className='flex'>
@@ -32,7 +39,6 @@ const Nav = () => {
         </a>
       </div>
     </nav>
-    
   );
 };
 

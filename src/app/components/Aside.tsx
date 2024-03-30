@@ -25,7 +25,7 @@ export const Aside: React.FC<Props> = ({ onSelectFilterColor, onSelectFilterComp
   };
   
   return (
-    <aside className='fixed left-0 h-screen w-2/12 p-5'>
+    <aside className='fixed left-0 h-screen w-2/12 p-5 hidden md:block'>
       <div>
         <h1 className="text-lg font-semibold mb-4 cursor-pointer" onClick={handleClearFilterColor}>Cores</h1>
         <section className='flex flex-wrap gap-2'>
