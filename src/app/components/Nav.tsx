@@ -8,7 +8,7 @@ const Nav = () => {
   const pathname = usePathname();
 
   const handleClick = () => {
-    window.location.href = '/pages/alert'; // Redirecionar para /pages/alert
+    window.location.href = '/pages/alert';
   };
 
   return (
@@ -24,7 +24,7 @@ const Nav = () => {
           type="text" 
           placeholder='Pesquisar...' 
           className='px-5 py-3 border-none bg-[#f7f6f6] outline-none rounded relative w-full'
-          onClick={handleClick} // Redirecionar quando o input for clicado
+          onClick={handleClick}
         />
       </div>
       <div className='flex'>

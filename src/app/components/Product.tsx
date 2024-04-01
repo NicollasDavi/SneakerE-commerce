@@ -1,5 +1,4 @@
 import Apresentation from './Apresentation';
-import Modal from './Modal';
 
 interface Product {
   id: number;

@@ -10,7 +10,7 @@ interface Product {
 }
 
 interface ProductsProps {
-  filteredProducts?: Product[]; // tornando filteredProducts opcional
+  filteredProducts?: Product[];
 }
 
 const Products: React.FC<ProductsProps> = ({ filteredProducts }) => {
